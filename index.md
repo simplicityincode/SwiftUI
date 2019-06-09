@@ -14,3 +14,38 @@ struct ContentView: View {
 }
 
 ```
+
+Here are some common modifiers for Text views:
+```swift
+struct ContentView: View {
+  var body: some View {
+    Text("Hello World")
+      .font(.title)
+      .font(.subheadline)
+      .color(.green)
+  }
+}
+
+```
+
+Complex interfaces are created using Horizontal and Vertical Stacks:
+```swift
+struct ContentView: View {
+    var body: some View {
+        VStack(alignment: .leading) {
+            ...
+            HStack {
+                ...
+            }
+        }
+    }
+}
+```
+
+Padding and Spaces:
+```swift
+  ..
+  VStack {
+  }.padding()
+  Spacer()
+```
