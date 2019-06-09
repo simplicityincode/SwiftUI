@@ -6,7 +6,7 @@ This page was created to explore Apple's (WWDC 2019) newly introduced SwiftUI Fr
 
 This is how a basic view looks like:
 
-```markdown
+```swift
 struct ContentView: View {
   var body: some View {
     
